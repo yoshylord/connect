@@ -3,3 +3,4 @@ hooks
 node_modules
 public/vendor
 *.swp
+.idea/

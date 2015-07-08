@@ -1,5 +1,5 @@
 {
-  "name": "anvil-connect",
+  "name": "anvil-connect-cm",
   "description": "A modern authorization server built to authenticate your users and protect your APIs",
   "version": "0.1.42",
   "author": {
@@ -9,15 +9,14 @@
   },
   "contributors": [
     {
-      "name": "Tom Kersten",
-      "email": "tom@whitespur.com",
-      "url": "http://tomkersten.com"
-    },
-    {
-      "name": "Adi Chikara",
-      "url": "https://twitter.com/adi_ads"
+      "name": "Camille Foubert",
+      "email": "camfou@gmail.com"
     }
   ],
+  "private": false,
+  "publishConfig": {
+    "registry": "http://moytux/sinopia/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/anvilresearch/connect.git"
